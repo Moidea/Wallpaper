@@ -1,0 +1,230 @@
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;outline:0;border:0;background:0 0;vertical-align:baseline;font-size:100%}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{background: #efeff4;background-image: url(../img/bg0.jpg);background-size: cover;margin: 0;
+    border: 0;
+    padding: 0;}
+        .scroll{
+        position:absolute; 
+        overflow:scroll; 
+        -webkit-overflow-scrolling: touch; 
+        top:0; 
+        left:0; 
+        bottom:0; 
+        right:0;
+    }
+	header{background: #fbfbfb;overflow: hidden;}
+	
+	.swiper-container { 
+		width: 100%;	
+		margin: 0; 
+		padding: 10px 0;
+	}
+	.swiper-slide {
+		-webkit-transition: transform 1.0s;
+		-moz-transition: transform 1.0s;
+		-ms-transition: transform 1.0s;
+		-o-transition: transform 1.0s;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
+	}
+	.swiper-slide-active,.swiper-slide-duplicate-active {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	.none-effect {
+		-webkit-transition: none;
+		-moz-transition: none;
+		-ms-transition: none;
+		-o-transition: none;
+	}
+	.swiper-slide a {
+		background: #fff;
+		padding:5px;
+		display: block;
+		border-radius: 5px;
+		box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+	}
+	.swiper-slide a:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		box-sizing: border-box;
+		border: 5px solid #fff;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: url(../img/top_slick_cover_bg01.png) 0 0 repeat;
+		border-radius: 5px;
+	}
+	.swiper-slide-active a:after {
+		background: none;
+	}
+	.swiper-slide img {
+		width: 100%;
+		border-radius: 5px;
+		display: block;
+	}
+	.nav {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+	}
+	.nav li {
+    float: left;
+    width: 33.333%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+.nav li a {
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transform: translate(0) rotate3d(0) scale(1);
+    transition: opacity 300ms ease-out,transform 300ms ease-out;
+    display: block;
+    background-color: #2196F3;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.box {
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 2px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    position: relative;
+	text-align: center;
+}
+.box h1{margin: 0 auto;line-height: 40px;}
+.box li {
+    margin-top: 15px;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+}
+.box li img {
+    color: #777;
+    width: 95%;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.box li img::before{content: "";padding-top: 100%;display: block;} 
+.avatar li{width:50%;}
+.avatar li img{border-radius: 5%;}
+
+
+
+.pager{text-align: center;padding: 10px;display: flex;width: 100%;list-style: none;}
+.pager .prev,.pager .next{float:left;width: 100px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: #fff;
+    background-color: #282828;text-decoration: none;}
+.pager .next{float: right;}
+.pager .prev{float: right;}
+.pager .nav_pagenum{margin: 0 auto;width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    border-color: #34495e;
+    color: hsla(0,0%,100%,.75);
+    background-color: #bdc3c7;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;}
+
+.gallery li{width:50%;}	
+.default li{width: 25%;height:480px;}
+
+.content{overflow: hidden;}
+.main {}
+.main .post{background:#fff;padding:10px;margin:10px;border-radius: 3px;box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);}
+.main .post .post-content{font-size:14px;}
+.main .post .post-content p{margin:0 0 15px;line-height: 1.5em;}
+.main .post img{max-width:100%;}
+.main .post .post-title{margin:5px 5px 10px;text-align: center;}
+	
+.appBox {
+    margin: 10px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.appTui {
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 3px 6px 2px rgba(0,0,0,.03);
+    padding: 15px 10px;
+    text-align: left;
+}
+.appTui a {
+    text-decoration: none;
+    color: #333;
+}
+.appTui h3 {
+    font-size: 1pc;
+    margin: 8px 0 9pt;
+}
+.appTui span {
+    font-size: 14px;
+}
+.appTui .label {
+    font-size: 9pt;
+    float: right;
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+@media (max-width: 1320px) {
+	.default li{height:375px;}
+}	
+@media (max-width: 1240px) {
+	.default li{height:370px;}
+}
+@media (max-width: 1024px) {
+	.default li{height:360px;}
+}
+@media (max-width: 980px) {
+	.default li{height:350px;}
+}
+@media (max-width: 860px) {
+	.default li{width: 50%;height:560px;}
+}	
+@media (max-width: 720px) {
+	.default li {height:480px;}
+}	
+@media (max-width: 640px) {
+	.default li {height:430px;}
+}
+@media (max-width: 480px) {
+	.default li {height:290px;}
+}
+@media (max-width: 360px) {}
