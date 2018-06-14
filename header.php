@@ -123,16 +123,6 @@
 	</div>
 	</nav>
 	<div style="padding: 10px;margin: 10px;border-radius: 3px;background: #eee;font-size: 14px;text-shadow: 0 1px 1px #fff;">使用方法：找到你喜欢的图片长按该图片然后选择保存图片或者发送给朋友选择对方的微信号，保存下来即为高清图片</div>
-	<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-4507282728182089"
-     data-ad-slot="1258621569"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script></p>
       </header>
   
   <div class="content" style="background:#fbfbfb;">
