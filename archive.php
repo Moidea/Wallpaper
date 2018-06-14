@@ -53,15 +53,6 @@
 </div>
 
 <?php endif; ?>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- 广告文字串 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:468px;height:18px"
-     data-ad-client="ca-pub-4507282728182089"
-     data-ad-slot="1600378371"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <div class="pager">
 	<?php $this->pageLink('<span>上一页</span>');?>
 	<a class="nav_pagenum"><span><?php if($this->_currentPage>1) echo $this->_currentPage;  else echo 1;?> / <?php echo ceil($this->getTotal() / $this->parameter->pageSize); ?></span></a>	
